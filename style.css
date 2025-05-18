@@ -21,7 +21,6 @@
     margin-top: -16px;
 }
 
-
 h1 {
     margin: 0;
 }
@@ -47,6 +46,8 @@ html, body {
     background-color: white;
 }
 
+/* Header, Header body, General page section */
+
 .title-info{
     display: flex;
     justify-content: center;
@@ -65,8 +66,7 @@ html, body {
     text-align: center;
     width: 170px;
 }
-
-/* Finish final touches to info section */
+/* info section */
 
 .quote {
     background-color: #e5e7eb;
@@ -76,7 +76,19 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-/* Fix quote section */
+
+#q1 {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
+
+#q2 {
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* quote section */
 
 .footer {
     background-color: white;
