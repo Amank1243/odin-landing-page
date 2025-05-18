@@ -11,7 +11,7 @@
 #B1 {
     color: white;
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-bottom: 54px;
 }
 
@@ -54,12 +54,16 @@ html, body {
 
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 38px;
+    margin: 16px 64px;
 }
 
 .colum {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    width: 170px;
 }
 
 /* Finish final touches to info section */
