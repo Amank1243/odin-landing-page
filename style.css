@@ -122,3 +122,12 @@ html, body {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 28px;
+    color: white;
+}
